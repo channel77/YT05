@@ -1,0 +1,159 @@
+   
+<html><head><style>
+body {
+  background-image: url("/bg.png");
+}
+</style><title>YouTube - Broadcast Yourself</title><table width="720" bgcolor="#FFFFFF" align="center" cellpadding="0" cellspacing="0" border="0">
+	<tbody><tr>
+		<td bgcolor="#999999"><img src="/box_tl.gif" width="10" height="10"></td>
+		<td colspan="3"><img src="/box_top.gif" width="700" height="10"></td>
+		<td bgcolor="#999999"><img src="/box_tr.gif" width="10" height="10"></td>
+	</tr>
+	<tr>
+		<td><img src="/box_lside.gif" width="10" height="72"></td>
+		<td width="700" colspan="3"><table width="700" cellpadding="0" cellspacing="0" border="0">
+				<tbody><tr>
+					<td rowspan="2"><a href="index.php"><img src="/logo.gif" width="154" height="72" border="0"></a></td>
+					<td colspan="4"><img src="/tab_tspace.gif" width="394" height="34" border="0"></td>
+										
+						<td><a href="signup.php"><img src="/link_signup.gif" width="94" height="34" border="0"></a></td>
+					
+										<td><a href="help.php"><img src="/link_help.gif" width="58" height="34" border="0"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://yt2005replica.neocities.org/"><img src="/tab_home_off.gif" width="69" height="38" border="0"></a></td>
+					<td><a href="https://yt2005replica.neocities.org/favorites.html"><img src="/tab_fav_off.gif" width="111" height="38" border="0" alt="Favorites"></a></td>
+					<td><a href="https://yt2005replica.neocities.org/messages.html"><img src="/tab_mes_off.gif" width="118" height="38" border="0" alt="Messages"></a></td>
+					<td><a href="https://yt2005replica.neocities.org/videos.html"><img src="/tab_vid_off.gif" width="96" height="38" border="0" alt="Videos"></a></td>
+					<td><a href="https://yt2005replica.neocities.org/guest.html"><img src="/tab_pro_off.gif" width="94" height="38" border="0" alt="Profile"></a></td>
+					<td><img src="/tab_rspace.gif" width="58" height="38"></td>
+				</tr>
+			</tbody></table></td>
+		<td><img src="/box_rside.gif" width="10" height="72"></td>
+	</tr>
+	<tr>
+		<td valign="top"><img src="/box_point_tlo.gif" width="10" height="40"></td>
+		<td valign="top"><img src="/box_point_tli.gif" width="28" height="40"></td>
+		<td width="644" align="center">
+		
+
+
+<form method="post" action="index.php">
+<input type="hidden" name="field_command" value="login_submit">
+<br><table bgcolor="#C6DFF1" cellpadding="0" cellspacing="0" border="0">
+	<tbody><tr>
+		<td><img src="/box_login_tl.gif" width="5" height="5"></td>
+		<td><img src="/pixel.gif" width="1" height="5"></td>
+		<td><img src="/box_login_tr.gif" width="5" height="5"></td>
+	</tr>
+	<tr>
+		<td><img src="/pixel.gif" width="5" height="1"></td>
+		<td>
+		<table cellpadding="2" cellspacing="0" border="0">
+			<tbody><tr>
+				<td><span class="label">Username:</span></td>
+				<td><input type="text" size="20" name="test" value=""></td>
+				<td>&nbsp;</td>
+				<td><span class="label">Password:</span></td>
+				<td><input type="text" size="20" name="test2"></td>
+				<td><input type="submit" value="Log In"></td>
+			</tr>
+		</tbody></table>
+		</td>
+		<td><img src="/pixel.gif" width="5" height="1"></td>
+	</tr>
+	<tr>
+		<td><img src="/box_login_bl.gif" width="5" height="5"></td>
+		<td><img src="/pixel.gif" width="1" height="5"></td>
+		<td><img src="/box_login_br.gif" width="5" height="5"></td>
+	</tr>
+</tbody></table>
+</form>
+	
+	
+		</td>
+		<td valign="top"><img src="/box_point_tri.gif" width="28" height="40"></td>
+		<td valign="top"><img src="/box_point_tro.gif" width="10" height="40"></td>
+	</tr>
+</tbody></table>
+
+<table width="720" bgcolor="#FFFFFF" align="center" cellpadding="0" cellspacing="0" border="0">
+	<tbody><tr>
+		<td><img src="/pixel.gif" width="15" height="1"></td>
+		<td width="690">
+<!-- begin dropdown form -->
+
+
+
+
+<div id="aboutVidDiv" class="contentBox">
+		<div id="uploaderInfo">
+		
+		<div id="subscribeDiv" class="smallText">
+			<div><a href="#" onclick="showAjaxDiv('emptydiv','/ajax_subscriptions?subscribe_to_user=conimate 2005',false); return false;" title="subscribe to conimate 2005's videos"><img src="/bluebutton.png" width="119" height="28" class="alignMid" alt="subscribe" border="0" title="subscribe to conimate 2005's videos"></a></div>
+			<div id="emptydiv">							<div id="subscribeCount" class="smallText">to yt2005replica</div>
+			</div>
+		</div> <!-- end subscribeDiv -->
+		
+		<div id="userInfoDiv">
+			<span class="smallLabel">Added</span>&nbsp;
+			<b class="smallText">December 31st, 1969</b><br>
+			<span class="smallLabel">From</span>&nbsp;
+			<b><a href="/user/yt2005replica.html" onclick="_hbLink('ChannelLink','Watch');">yt2005replica</a></b>
+		</div> <!-- end userInfoDiv -->
+
+	
+			
+			
+			<table id="aboutDirectorTable" cellpadding="0" cellspacing="0">
+			<tbody><tr> 
+				<td align="center" width="96"><div class="img">				
+						<div><a href="/user/yt2005replica.html"><img src="https://yt2005replica.neocities.org/novideo.png" width="130" height="97" border="0"></a></div>
+						<div id="directorLogo"><a href="/director"><img src="/pic_badge_director_90x18.gif" border="0"></a></div>
+					</div>
+				</td>
+			
+			<td class="smallText"><div class="label">Provided By:</div>
+				<div>
+				<a href="/user/yt2005replica.html">yt2005replica</a>
+				</div>
+				
+			</td></tr>
+			</tbody></table>
+
+		</div> <!-- end uploaderInfo -->
+		
+		
+		
+		
+        <div id="vidDescDiv">
+        	
+			<span id="vidDescBegin">
+			Page not Found
+			</span>
+		</div>
+
+
+<video width="512" loop="" autoplay=""><source src="https://cdn.discordapp.com/attachments/852788389799002113/938491819300388904/Movie.mp4" type="video/mp4" loop="">ERROR 404</video>
+
+
+	</div>
+
+
+
+		</td>
+		<td><img src="/pixel.gif" width="15" height="1"></td>
+	</tr>
+</tbody></table>
+
+<table width="720" bgcolor="#FFFFFF" align="center" cellpadding="0" cellspacing="0" border="0">
+	<tbody><tr>
+		<td><img src="/box_bottom.gif" width="720" height="62"></td>
+	</tr>
+</tbody></table>
+
+<br><table width="720" bgcolor="#CCCCCC" align="center" cellpadding="7" cellspacing="1" border="0">
+	<tbody><tr>
+		<td align="center" bgcolor="#AAAAAA"><span class="footer"><a href="https://yt2005replica.neocities.org/help/requestvid.html">Request a Video - </a><a href="https://yt2005replica.neocities.org/aboutus.html">About us -</a><a href="https://yt2005replica.neocities.org/terms.html">Terms of Use - </a><a href="https://yt2005replica.neocities.org/pp.html">Privacy Policy</a></a> - 2005 - Made by conimate 2005</span></td>
+	</tr>
+</tbody></table></body></html>
