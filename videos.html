@@ -3,6 +3,7 @@
 <title>YouTube - Broadcast Yourself</title>
 <link href="./styles.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
 </head>
 <body><table width="720" bgcolor="#FFFFFF" align="center" cellpadding="0" cellspacing="0" border="0">
 	<tbody><tr>
@@ -82,26 +83,72 @@
 	<tbody><tr>
 		<td><img src="./img/pixel.gif" width="15" height="1"></td>
 		<td width="690">
-<!-- start video list -->
-<table width="130" cellpadding="0" cellspacing="0" border="0">
-	<tbody><tr>
-		<td>	
-									<td style="padding: 6px;"><a href="./video/welcome.html"><img src="./video/img/1.jpg" width="130" height="97" border="0"></a></td>
-																		<td style="padding: 6px;"><a href="./video/jNQXAC9IVRw.html"><img src="./video/img/2.jpg" width="130" height="97" border="0"></a></td>
 
-																											<td style="padding: 6px;"><a href="./video/LeAltgu_pbM.html"><img src="./video/img/3.jpg" width="130" height="97" border="0"></a></td>
-																																																						<td style="padding: 6px;"><a href="./video/aBfUFr9SBY0.html"><img src="./video/img/4.jpg" width="130" height="97" border="0"></a></td>
-																		
-		</td>
 
-	</tr>
-	
-</table>
-<a style="padding: 6px;" href="./video/jNQXAC9IVRw.html">Welcome to YouTube!!!!</a>
-<a style="padding: 32px;" href="./video/jNQXAC9IVRw.html">Me at the zoo</a>
-<a style="padding: 6px;" href="./video/LeAltgu_pbM.html">My Snowboarding Skillz</a>
-<a style="padding: 52px;" href="./video/aBfUFr9SBY0.html">tribute</a>
-<!-- end video list -->
+
+    <div class="video-list-container">
+        <div class="video-list" style="white-space: nowrap; overflow-x: auto;">
+            <!-- JavaScript will populate videos here -->
+        </div>
+    </div>
+
+    <script>
+        // JavaScript function to populate video list
+        function populateVideoList() {
+            const videoListContainer = document.querySelector(".video-list-container");
+            const videoList = document.querySelector(".video-list");
+
+            // Replace this with logic to fetch and add videos dynamically
+            // Example:
+            addVideo(videoList, "./video/welcome.html", "./video/img/1.jpg", "Welcome to YouTube");
+            addVideo(videoList, "./video/jNQXAC9IVRw.html", "./video/img/2.jpg", "Me at the zoo");
+            addVideo(videoList, "./video/LeAltgu_pbM.html", "./video/img/3.jpg", "My Snowboarding Skillz");
+            addVideo(videoList, "./video/aBfUFr9SBY0.html", "./video/img/4.jpg", "tribute");
+
+
+            // Check if there are 4 videos in the current row
+            const videoItems = videoList.querySelectorAll(".video-item");
+            if (videoItems.length % 4 === 0) {
+                // Create a new row for videos
+                const newRow = document.createElement("div");
+                newRow.classList.add("video-row");
+                videoList.appendChild(newRow);
+            }
+        }
+
+        // Function to add a video to the video list
+        function addVideo(videoList, videoUrl, thumbnailUrl, title) {
+            // Get the last row of videos or create a new one if none exists
+            let lastRow = videoList.querySelector(".video-row:last-child");
+            if (!lastRow || lastRow.childElementCount === 4) {
+                lastRow = document.createElement("div");
+                lastRow.classList.add("video-row");
+                videoList.appendChild(lastRow);
+            }
+
+            const videoItem = document.createElement("div");
+            videoItem.classList.add("video-item");
+            videoItem.style.display = "inline-block";
+            videoItem.style.textAlign = "center";
+            videoItem.style.marginRight = "20px";
+            videoItem.style.verticalAlign = "top";
+
+            videoItem.innerHTML = `
+                <a href="${videoUrl}">
+                    <img src="${thumbnailUrl}" alt="${title}" style="width: 130px; height: 97px; border: 0;">
+                </a>
+                <a href="${videoUrl}" style="display: block; text-decoration: none; color: #333; font-weight: bold;">${title}</a>
+            `;
+
+            lastRow.appendChild(videoItem);
+        }
+
+        // Call the function to populate the video list
+        populateVideoList();
+    </script>
+
+
+
 
 		<td><img src="./img/pixel.gif" width="15" height="1"></td>
 	</tr>
@@ -117,4 +164,7 @@
 	<tbody><tr>
 		<td align="center" bgcolor="#AAAAAA"><span class="footer"><a href="./help/requestvid.html">Request a Video - </a><a href="./aboutus.html">About us -</a><a href="./terms.html">Terms of Use - </a><a href="./pp.html">Privacy Policy</a></span></td>
 	</tr>
-</tbody></table></body></html>
+</tbody></table>
+
+
+</body></html>
